@@ -1,0 +1,82 @@
+body{
+    background:#fff7fb;
+    font-family:Poppins, sans-serif;
+    color:#444;
+}
+
+.navbar{
+    background:#ffffff !important;
+    border-bottom:3px solid #f8c8dc;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.navbar-brand{
+    color:#e75480 !important;
+    font-weight:bold;
+    font-size:26px;
+}
+
+.card{
+    background:#fff;
+    border:none;
+    border-radius:20px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(231,84,128,.2);
+}
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    border:1px solid #f5c2d6;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#e75480;
+    box-shadow:0 0 8px rgba(231,84,128,.2);
+}
+
+.btn-primary{
+    background:#e75480;
+    border:none;
+    border-radius:12px;
+}
+
+.btn-primary:hover{
+    background:#d63384;
+}
+
+thead{
+    background:#ffe4ef;
+}
+
+tbody tr:hover{
+    background:#fff0f7;
+}
+
+h4{
+    color:#d63384;
+    font-weight:bold;
+}
+
+canvas{
+    max-width:350px;
+    max-height:350px;
+    margin:auto;
+}
+
+.edit-btn{
+    background:#dd396a;
+    color:white;
+    border:none;
+}
+
+.edit-btn:hover{
+    background:#c6285d;
+    color:white;
+}
